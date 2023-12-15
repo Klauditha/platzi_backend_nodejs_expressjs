@@ -1,0 +1,21 @@
+{
+  "name": "platzi_backend_nodejs_expressjs",
+  "version": "1.0.0",
+  "description": "Curso de Backend con Node.js: API REST con Express.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  }
+}
