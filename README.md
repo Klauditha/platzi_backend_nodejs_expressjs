@@ -36,3 +36,10 @@ PATCH (como POST) puede tener efectos secundarios sobre otros recursos.
   ```npm i faker```
   ```npm i faker@5.5.3 -S```
   ```npm i @faker-js/faker``` Version recomendada
+
+## Principio de Responsabilidad Unica
+
+Cada pieza de código solo debería tener una responsabilidad.
+Aplica también a los archivos.
+Express.Router permite la separación de responsabilidades en los archivos.
+
