@@ -30,3 +30,9 @@ La palabra "idempotente" significa que cualquier número de solicitudes repetida
 Por ejemplo, si un campo de contador de incremento automático es una parte integral del recurso, entonces un PUT lo sobrescribirá naturalmente (ya que sobrescribe todo), pero no necesariamente para .PATCH
 
 PATCH (como POST) puede tener efectos secundarios sobre otros recursos.
+
+## Generar data fake
+
+  ```npm i faker```
+  ```npm i faker@5.5.3 -S```
+  ```npm i @faker-js/faker``` Version recomendada
