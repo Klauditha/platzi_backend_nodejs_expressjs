@@ -36,6 +36,24 @@ router.post('/', (req, res) => {
     message: 'Product created',
     data: body,
   });
-})
+});
 
+/**Recibe los datos de forma parcial */
+router.patch('/:id', (req, res) => {
+  const { id } = req.params;
+  const body = req.body;
+  res.json({
+    message: 'Product updated',
+    id,
+    data: body,
+  });
+});
+
+router.delete('/:id', (req, res) => {
+  const { id } = req.params;
+  res.json({
+    message: 'Product deleted',
+    id,
+  });
+});
 module.exports = router;
