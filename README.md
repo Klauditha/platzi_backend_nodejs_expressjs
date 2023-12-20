@@ -46,3 +46,8 @@ Express.Router permite la separación de responsabilidades en los archivos.
 ## HTTP
 
 - https://platzi.com/new-home/clases/4656-backend/56009-http/
+
+##  Códigos de estado o HTTP response status codes
+
+- https://http.cat/
+- https://developer.mozilla.org/en-US/docs/Web/HTTP
