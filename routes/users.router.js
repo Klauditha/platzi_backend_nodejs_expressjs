@@ -17,29 +17,21 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
   const body = req.body;
-  res.status(201).json({
-    message: 'User created',
-    data: body,
-  });
+  const user = service.create(body);
+  res.status(201).json(user);
 });
 
 router.patch('/:id', (req, res) => {
   const { id } = req.params;
   const body = req.body;
-  res.json({
-    message: 'User updated',
-    id,
-    body,
-  });
+  const user = service.update(id, body);
+  res.json(user);
 });
 
 router.delete('/:id', (req, res) => {
   const { id } = req.params;
-  res.json({
-    message: 'User deleted',
-    id,
-  });
+  const user = service.delete(id);
+  res.json(user);
 });
-
 
 module.exports = router;
