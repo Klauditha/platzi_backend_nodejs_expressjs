@@ -51,3 +51,18 @@ Express.Router permite la separación de responsabilidades en los archivos.
 
 - https://http.cat/
 - https://developer.mozilla.org/en-US/docs/Web/HTTP
+
+## Middlewares
+
+Un middleware es un bloque de código que se ejecuta entre la petición que hace el usuario (request) hasta que la petición llega al servidor.
+
+Casos de uso:
+- Funcionar como pipes
+- Validar datos
+- Capturas errores
+- Validar permisos
+- Controlar accesos.
+
+https://expressjs.com/en/guide/writing-middleware.html
+
+
