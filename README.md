@@ -70,4 +70,12 @@ https://expressjs.com/en/guide/writing-middleware.html
 
 Instalación:
 
-```npm i @hapi/boom```
+  ```npm i @hapi/boom```
+
+## Validación de datos con Joi
+
+Instalación:
+
+  ```npm i joi```
+
+  - https://joi.dev/
