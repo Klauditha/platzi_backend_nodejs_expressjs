@@ -66,3 +66,8 @@ Casos de uso:
 https://expressjs.com/en/guide/writing-middleware.html
 
 
+## Manejo de errores con Boom
+
+Instalación:
+
+```npm i @hapi/boom```
