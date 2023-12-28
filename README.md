@@ -124,3 +124,9 @@ Más middlewares populares en el siguiente enlace: http://expressjs.com/en/resou
 - Remover logs
 - Seguridad (Helmet)
 - Testing
+
+## Cors
+
+Instalación:
+
+  ```npm i cors```
