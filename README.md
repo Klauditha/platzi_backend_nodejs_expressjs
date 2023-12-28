@@ -130,3 +130,6 @@ Más middlewares populares en el siguiente enlace: http://expressjs.com/en/resou
 Instalación:
 
   ```npm i cors```
+
+## URL heroku
+- https://nameless-badlands-15776-327f8fdc9a8c.herokuapp.com/api/v1/products
