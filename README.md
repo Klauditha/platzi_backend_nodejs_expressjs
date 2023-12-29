@@ -17,7 +17,7 @@ Metodos:
 - Patch: Modificar/Actualizar
 - Post: Crear
 - Delete: Eliminar
-- 
+  
 Patch
 El método de solicitud HTTP PATCH aplica modificaciones parciales a un recurso.
 
