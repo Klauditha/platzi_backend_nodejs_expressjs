@@ -4,6 +4,12 @@ const CategoriesService = require('./../services/categorie.service');
 const router = express.Router();
 const service = new CategoriesService();
 
+/**
+ * @swagger
+ * tags:
+ *   name: Books
+ *   description: The books managing API
+ */
 router.get('/', (req, res) => {
   const categories = service.find();
   res.json(categories);
